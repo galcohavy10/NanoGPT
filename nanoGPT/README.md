@@ -1,3 +1,6 @@
+## This README and most of the source code was forked from Andrej Karpathy, as I used this repository to learn how to build a language model from scratch.
+## Please check out the original repository to see the original NanoGPT here: https://github.com/karpathy/nanoGPT
+## There is also a youtube video to follow along with, if you're interested in how to build a GPT from scratch: https://www.youtube.com/watch?v=kCc8FmEb1nY
 
 # nanoGPT
 
