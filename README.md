@@ -1,6 +1,10 @@
 
 # nanoGPT
 
+## This README and most of the source code was forked from Andrej Karpathy, as I used this repository to learn how to build a language model from scratch.
+## Please check out the original repository to see the original NanoGPT here: https://github.com/karpathy/nanoGPT
+## There is also a youtube video to follow along with, if you're interested in how to build a GPT from scratch: https://www.youtube.com/watch?v=kCc8FmEb1nY
+
 ![nanoGPT](assets/nanogpt.jpg)
 
 The simplest, fastest repository for training/finetuning medium-sized GPTs. It is a rewrite of [minGPT](https://github.com/karpathy/minGPT) that prioritizes teeth over education. Still under active development, but currently the file `train.py` reproduces GPT-2 (124M) on OpenWebText, running on a single 8XA100 40GB node in about 4 days of training. The code itself is plain and readable: `train.py` is a ~300-line boilerplate training loop and `model.py` a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI. That's it.
